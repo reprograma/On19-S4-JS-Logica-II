@@ -8,3 +8,6 @@ const arrayExercicio = [
   "abacaxi",
   "caviar"
 ];
+
+const arrayExercicio2 = arrayExercicio.map( arrayExercicio => arrayExercicio[0].toUpperCase()+arrayExercicio.slice(1));
+console.log("Resposta: ", arrayExercicio2);

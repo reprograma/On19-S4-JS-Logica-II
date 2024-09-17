@@ -7,17 +7,17 @@ console.clear();
 
 const arrayExemplo = [];
 
-arrayExemplo.push("Opalão");
-console.log("Push: ", arrayExemplo);
+arrayExemplo.push("Opalão"); //o push é enviar, então vc tá enviando algo para dentro da arrays. no caso a palavra enviada é a dentro das ""
+console.log("Push: ", arrayExemplo); //cada vez que dê um push acrescenta a palavra no final.
 
 arrayExemplo.push("Chevet");
 console.log("Push2: ", arrayExemplo);
 
 arrayExemplo.pop();
-console.log("Pop: ", arrayExemplo);
+console.log("Pop: ", arrayExemplo); //pop vai excluir o último item adicionado.
 
-arrayExemplo.unshift("Chevet");
+arrayExemplo.unshift("Chevet"); //o unshift recebe item, então adiciona. esse adiciona o último item adicionado no inicio.
 console.log("Unshift: ", arrayExemplo);
 
-arrayExemplo.shift();
+arrayExemplo.shift(); //o shift deleta item. esse deleta o primeiro item.
 console.log("Shift: ", arrayExemplo);
